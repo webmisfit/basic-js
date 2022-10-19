@@ -1,10 +1,10 @@
 const { NotImplementedError } = require('../extensions/index.js');
 
 /**
- * In the popular Minesweeper game you have a board with some mines and those cells
- * that don't contain a mine have a number in it that indicates the total number of mines
- * in the neighboring cells. Starting off with some arrangement of mines
- * we want to create a Minesweeper game setup.
+ *В популярной игре MineSweeper у вас есть доска с некоторыми шахтами и этими ячейками
+ * что не содержат шахты, в нем есть число, которое указывает на общее количество шахт
+ * В соседних клетках.Начиная с некоторой аранжировки шахт
+ * Мы хотим создать настройку шахты.
  *
  * @param {Array<Array>} matrix
  * @return {Array<Array>}

@@ -20,9 +20,7 @@ function countCats(matrix) {
   // console.log(matrix)
 
   return matrix.flat().reduce((a,c)=>{
-    a += +(c=='^^')
-
-    return a
+    return a + (c=='^^')
   },0)
 
 }
